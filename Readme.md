@@ -42,10 +42,3 @@ docker-gui-gpt4all/
 
 - For better performance, configure your GPU settings appropriately.
 
-## Test image and container
-
-A Docker image using Ubuntu is attached for convenience to illustrate/test the functionalities.
-
-## Anything else relevant to each specific project
-
-- If you run into SSL errors, make sure the `/etc/ssl/certs` directory is correctly mapped.
