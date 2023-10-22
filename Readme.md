@@ -2,9 +2,7 @@
 
 ## Features
 
-- Easy deployment of GPT-4 All application in a Docker container.
-- Supports GUI applications.
-- SSL certificate management.
+- Easy deployment of GPT-4 All application GUI in a Docker container.
 - Use this with [Dogma GitHub Repository](https://github.com/williamblair333/dogma) for convenience
 
 ## Prerequisites
