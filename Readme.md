@@ -13,7 +13,7 @@
 
 ## Directory Structure
 
-docker-gui-gpt4all/
+docker-gui-gpt4all/  
 ├── Dockerfile: Defines the Docker container including the necessary dependencies.  
 ├── docker-compose.yml: Docker Compose configuration file.  
 ├── gpt4all-installer-linux.run: GPT-4 All installer for Linux.  
