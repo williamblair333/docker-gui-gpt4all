@@ -4,13 +4,15 @@
 #################################################################################
 
 # Ignore everything
+# Ignore everything in docs and models except .txt and .gitkeep
 docs/*
-models/*
-.cache/
-
-# Except for .txt files
 !docs/*.txt
+!docs/.gitkeep
+models/*
 !models/*.txt
+!models/.gitkeep
+
+.cache/
 #################################################################################
 #VSCODE
 #################################################################################
