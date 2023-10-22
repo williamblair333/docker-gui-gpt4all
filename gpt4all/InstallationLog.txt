@@ -1,0 +1,112 @@
+************************************* Invoked: Sat Oct 21 15:52:15 2023
+[0] Arguments: ./gpt4all-installer-linux.run
+[0] Operations sanity check succeeded.
+[8] Using metadata cache from "/root/.cache/qt-installer-framework/9c11e018-d3aa-3c3a-9118-829c9ab85b1c"
+[8] Found 0 cached items.
+[8] Language: C
+[5527] Fetching latest update information...
+[5960] Retrieving meta information from remote repository...
+[6099] Extracting meta information...
+[6100] Updating local cache with 1 new items...
+[6104] Loading component scripts...
+[10416] Selected components without dependencies:
+Unspecified 
+gpt4all
+[10417] Installation space required: "657.64 MB" Temporary space required: "335.81 MB" Local repository size: "0.00 bytes"
+[10417] Cache and install directories are on the same volume. Volume mount point: "/root/gpt4all" Free space available: "250.92 GB"
+[12159] backup  operation: Mkdir
+[12159] 	- arguments: /root/gpt4all
+[12159] Done
+[12159] perform  operation: Mkdir
+[12159] 	- arguments: /root/gpt4all
+[12159] Done
+[12159] Preparing the installation...
+[12159] Install size: 2 components
+[12159] Downloading packages...
+[12160] Downloading archive "2.5.0bin.7z.sha1" for component gpt4all.
+[12486] Downloading archive "2.5.0bin.7z" for component gpt4all.
+[13010] Downloading archive "2.5.0lib.7z.sha1" for component gpt4all.
+[13330] Downloading archive "2.5.0lib.7z" for component gpt4all.
+[17127] Downloading archive "2.5.0plugins.7z.sha1" for component gpt4all.
+[17406] Downloading archive "2.5.0plugins.7z" for component gpt4all.
+[18104] Downloading archive "2.5.0qml.7z.sha1" for component gpt4all.
+[18465] Downloading archive "2.5.0qml.7z" for component gpt4all.
+[23698] Downloading archive "2.5.0share.7z.sha1" for component gpt4all.
+[24046] Downloading archive "2.5.0share.7z" for component gpt4all.
+[24323] Downloading archive "2.5.0content.7z.sha1" for component gpt4all.
+[24634] Downloading archive "2.5.0content.7z" for component gpt4all.
+[24795] Preparing to unpack components...
+[24798] backup Unspecified concurrent operation: Extract
+[24798] 	- arguments: installer://Unspecified/2.5.0include.7z, /root/gpt4all
+[24798] Started
+[24798] backup Unspecified concurrent operation: Extract
+[24798] 	- arguments: installer://Unspecified/2.5.0lib.7z, /root/gpt4all
+[24798] Started
+[24798] backup Unspecified concurrent operation: Extract
+[24798] 	- arguments: installer://Unspecified/2.5.0share.7z, /root/gpt4all
+[24798] Started
+[24798] backup gpt4all concurrent operation: Extract
+[24798] 	- arguments: installer://gpt4all/2.5.0bin.7z, /root/gpt4all
+[24798] Started
+[24798] backup gpt4all concurrent operation: Extract
+[24798] 	- arguments: installer://gpt4all/2.5.0content.7z, /root/gpt4all
+[24798] Started
+[24798] backup gpt4all concurrent operation: Extract
+[24798] 	- arguments: installer://gpt4all/2.5.0lib.7z, /root/gpt4all
+[24798] Started
+[24798] backup gpt4all concurrent operation: Extract
+[24798] 	- arguments: installer://gpt4all/2.5.0plugins.7z, /root/gpt4all
+[24798] Started
+[24798] backup gpt4all concurrent operation: Extract
+[24798] 	- arguments: installer://gpt4all/2.5.0qml.7z, /root/gpt4all
+[24798] Started
+[24798] backup gpt4all concurrent operation: Extract
+[24798] 	- arguments: installer://gpt4all/2.5.0share.7z, /root/gpt4all
+[24798] Started
+[26265] Unpacking components...
+[26265] perform gpt4all concurrent operation: Extract
+[26265] 	- arguments: installer://gpt4all/2.5.0qml.7z, /root/gpt4all
+[26265] Started
+[26265] perform gpt4all concurrent operation: Extract
+[26265] 	- arguments: installer://gpt4all/2.5.0lib.7z, /root/gpt4all
+[26265] Started
+[26265] perform gpt4all concurrent operation: Extract
+[26265] 	- arguments: installer://gpt4all/2.5.0plugins.7z, /root/gpt4all
+[26265] Started
+[26265] perform gpt4all concurrent operation: Extract
+[26265] 	- arguments: installer://gpt4all/2.5.0bin.7z, /root/gpt4all
+[26265] Started
+[26265] perform Unspecified concurrent operation: Extract
+[26265] 	- arguments: installer://Unspecified/2.5.0include.7z, /root/gpt4all
+[26265] Started
+[26265] perform Unspecified concurrent operation: Extract
+[26265] 	- arguments: installer://Unspecified/2.5.0share.7z, /root/gpt4all
+[26265] Started
+[26265] perform Unspecified concurrent operation: Extract
+[26265] 	- arguments: installer://Unspecified/2.5.0lib.7z, /root/gpt4all
+[26265] Started
+[26266] perform gpt4all concurrent operation: Extract
+[26266] 	- arguments: installer://gpt4all/2.5.0share.7z, /root/gpt4all
+[26266] Started
+[26266] perform gpt4all concurrent operation: Extract
+[26266] 	- arguments: installer://gpt4all/2.5.0content.7z, /root/gpt4all
+[26266] Started
+[85811] Installing component gpt4all
+[85812] backup gpt4all operation: License
+[85812] 	- arguments:
+[85812] Done
+[85812] perform gpt4all operation: License
+[85812] 	- arguments:
+[86405] Done
+[86407] Writing maintenance tool: "/root/gpt4all/maintenancetool.new"
+[86407] Writing maintenance tool.
+[104924] Wrote permissions for maintenance tool.
+[106090] Maintenance tool hard restart: false.
+[106091] Installation finished!
+************************************* Invoked: Sun Oct 22 03:46:37 2023
+[0] Arguments: /root/gpt4all/bin/../maintenancetool
+[10] Operations sanity check succeeded.
+[11] Using metadata cache from "/root/.cache/qt-installer-framework/9c11e018-d3aa-3c3a-9118-829c9ab85b1c"
+[11] Found 1 cached items.
+[11] Language: C
+[2380] Fetching latest update information...

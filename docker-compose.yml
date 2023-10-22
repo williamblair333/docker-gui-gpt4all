@@ -1,0 +1,26 @@
+version: '3'
+services:
+  gpt4all:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - DISPLAY=${DISPLAY}
+      - XDG_RUNTIME_DIR=/tmp/runtime-root
+      - LANG=C.UTF-8
+      - LANGUAGE=C.UTF-8
+      - LC_ALL=C.UTF-8
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /etc/ssl/certs:/etc/ssl/certs:ro
+      - ./gpt4all:/root/gpt4all
+      - ./.cache:/root/.cache
+      - ./Desktop:/root/Desktop
+      - ./docs:/root/docs
+      - ./models:/root/models
+    devices:
+      # for your system, do ls /dev/dri and add accordingly
+      - /dev/dri/card0:/dev/dri/card0
+      - /dev/dri/renderD128:/dev/dri/renderD128
+    tty: true
+    stdin_open: true
