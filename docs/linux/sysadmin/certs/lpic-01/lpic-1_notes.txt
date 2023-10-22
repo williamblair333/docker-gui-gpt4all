@@ -1,8 +1,0 @@
--Study all of the commands from the objectives, know their purpose, a few flags, and what those flags do.
--Study the FHS(File Hierarchy Sytem), just search Linux FHS and you will find a 40 page document on FHS. Read it.
--Go deep on certain subjects 101-500: Grub Legacy, Grub2, dpkg and apt-get/cache, rpm/yum, systemd/ssytemctl/journalctl. I am sure there is more.
-102-500: Syslog/Logger, NetworkManager/nmcli, ifconfig/ipup/ipdown, route, hostnamectl, cups, mail, sendmail.
-
-don't forget to study configuration files/important files. i can't even begin to tell you how many questions there was about files. Lots of questions phrase like: what file does this command update?, or what file stores hashed passwords?
-
-Hope this helps someone. Not to dig into any of these books, but the man pages also have a plethora of information you would be wise to read through them. Good luck, sorry for making you read a book. 
