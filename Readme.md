@@ -27,6 +27,7 @@ docker-gui-gpt4all/
     ```bash
     git clone https://github.com/yourusername/docker-gui-gpt4all.git
     cd docker-gui-gpt4all
+    wget https://gpt4all.io/installers/gpt4all-installer-linux.run
     ```
 2. **Build and start the Docker container**:
     ```bash
